@@ -156,20 +156,13 @@
     flex-direction: column;
     width: 100%;
   }
-  .izq2{
+  .izq2, .center1, .der2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-  .center1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .der2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    background-color: white;
+    width: 20%;
+    height: 70vh;
   }
   .arriba{
     display: flex;
@@ -190,16 +183,11 @@
   }
   .bajo{
     display: flex;
-     justify-content: space-around;
+    justify-content: space-around;
     text-align: center;
     margin-top: 5%;
     width: 100%;
     height: 80vh;
-  }
-  .izq2{
-    background-color: white;
-    width: 20%;
-    height: 70vh;
   }
   .precio{
     display: flex;
@@ -211,16 +199,6 @@
   }
   .precio .pre{
     font-size: 50px;
-  }
-  .center1{
-    background-color: white;
-    width: 20%;
-    height: 70vh;
-  }
-  .der2{
-    background-color: white;
-    width: 20%;
-    height: 70vh;
   }
   .cuest{
     display: flex;
@@ -365,7 +343,7 @@
       width: 100%;
       height: 90vh;
     }
-    .izq2{
+    .izq2, .center1,.der2{
       background-color: white;
       width: 25%;
       height: 80vh;
@@ -383,16 +361,6 @@
     }
     .precio p{
       font-size: 9px;
-    }
-    .center1{
-      background-color: white;
-      width: 25%;
-      height: 80vh;
-    }
-    .der2{
-      background-color: white;
-      width: 25%;
-      height: 80vh;
     }
     .pf{
       list-style-image: url(/images/check.png);
@@ -447,7 +415,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        width: 50%;
       }
       .headerDer a{
         color: aliceblue;
@@ -471,16 +438,16 @@
       }
       .princ .izq .p1{
         font-size: 80px;
-        font-weight: 700;
+        font-weight: 600;
       }
       .buttons{
         border: solid 1px white;
         border-radius: 5px;
-        width: 33%;
-        height: 6vh;
+        width: 40%;
+        height: 5vh;
       }
       .bizq{
-        width: 16vw;
+        width: 50%;
         height: 4vh;
         border-radius: 4px;
         border: 0;
@@ -488,28 +455,24 @@
         font-weight: 700;
       }
       .bizq1{
+        border-radius: 4px;
         width: 30%;
-      }
-      .der{
-        background: none;
-        width: 0;
+        height: 4vh;
       }
       .center{
         display: flex;
         flex-direction: row;
-        background-image: url(/images/fondoCenter.png);
         background-size: cover;
       }
-      .cet{
-        display: flex;
-        flex-direction: row;
+      .center img{
+        height: 70px;
       }
       .final{
         background-color: rgb(163, 77, 156);
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 95.7%;
+        width: 95.5%;
         border: #1e172f solid 10px;
       }
       .bajo{
@@ -518,10 +481,10 @@
         width: 100%;
         height: 90vh;
       }
-      .izq2{
+      .izq2, .center1, .der2{
         background-color: white;
         width: 25%;
-        height: 80vh;
+        height: 60vh;
       }
       .precio{
         display: flex;
@@ -537,15 +500,8 @@
       .precio p{
         font-size: 9px;
       }
-      .center1{
-        background-color: white;
-        width: 25%;
-        height: 80vh;
-      }
-      .der2{
-        background-color: white;
-        width: 25%;
-        height: 80vh;
+      .but{
+        height: 50vh;
       }
       .pf{
         list-style-image: url(/images/check.png);
